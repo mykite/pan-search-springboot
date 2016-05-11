@@ -1,0 +1,497 @@
+2016-05-11 15:01:53.375  INFO 66720 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 66720 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 15:01:53.381  INFO 66720 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 15:01:53.484  INFO 66720 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ab453: startup date [Wed May 11 15:01:53 CST 2016]; root of context hierarchy
+2016-05-11 15:01:56.355  INFO 66720 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2016-05-11 15:01:56.376  INFO 66720 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 15:01:56.377  INFO 66720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 15:01:56.552  INFO 66720 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 15:01:56.552  INFO 66720 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3073 ms
+2016-05-11 15:01:57.077  INFO 66720 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 15:01:57.084  INFO 66720 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 15:01:57.085  INFO 66720 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 15:01:57.086  INFO 66720 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 15:01:57.086  INFO 66720 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 15:01:57.364  INFO 66720 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ab453: startup date [Wed May 11 15:01:53 CST 2016]; root of context hierarchy
+2016-05-11 15:01:57.473  INFO 66720 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request)
+2016-05-11 15:01:57.481  INFO 66720 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 15:01:57.483  INFO 66720 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 15:01:57.552  INFO 66720 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:01:57.553  INFO 66720 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:01:57.653  INFO 66720 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:01:57.888  INFO 66720 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 15:01:57.997  INFO 66720 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2016-05-11 15:01:58.005  INFO 66720 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.217 seconds (JVM running for 5.696)
+2016-05-11 15:50:42.199  INFO 69188 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 69188 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 15:50:42.248  INFO 69188 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 15:50:42.362  INFO 69188 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2eedd06a: startup date [Wed May 11 15:50:42 CST 2016]; root of context hierarchy
+2016-05-11 15:50:45.218  INFO 69188 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2016-05-11 15:50:45.241  INFO 69188 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 15:50:45.244  INFO 69188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 15:50:45.435  INFO 69188 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 15:50:45.436  INFO 69188 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3079 ms
+2016-05-11 15:50:46.128  INFO 69188 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 15:50:46.136  INFO 69188 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 15:50:46.137  INFO 69188 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 15:50:46.137  INFO 69188 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 15:50:46.137  INFO 69188 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 15:50:46.469  INFO 69188 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2eedd06a: startup date [Wed May 11 15:50:42 CST 2016]; root of context hierarchy
+2016-05-11 15:50:46.579  INFO 69188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request)
+2016-05-11 15:50:46.593  INFO 69188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 15:50:46.594  INFO 69188 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 15:50:46.667  INFO 69188 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:50:46.667  INFO 69188 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:50:46.775  INFO 69188 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:50:47.071  INFO 69188 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 15:50:47.250  INFO 69188 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2016-05-11 15:50:47.256  INFO 69188 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.764 seconds (JVM running for 6.346)
+2016-05-11 15:50:50.043  INFO 69188 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 15:50:50.044  INFO 69188 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 15:50:50.068  INFO 69188 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2016-05-11 15:52:44.793  INFO 69476 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 69476 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 15:52:44.800  INFO 69476 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 15:52:44.910  INFO 69476 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65eb6cf5: startup date [Wed May 11 15:52:44 CST 2016]; root of context hierarchy
+2016-05-11 15:52:47.867  INFO 69476 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2016-05-11 15:52:47.885  INFO 69476 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 15:52:47.887  INFO 69476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 15:52:48.050  INFO 69476 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 15:52:48.051  INFO 69476 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3147 ms
+2016-05-11 15:52:48.697  INFO 69476 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 15:52:48.704  INFO 69476 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 15:52:48.705  INFO 69476 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 15:52:48.705  INFO 69476 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 15:52:48.706  INFO 69476 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 15:52:49.052  INFO 69476 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65eb6cf5: startup date [Wed May 11 15:52:44 CST 2016]; root of context hierarchy
+2016-05-11 15:52:49.160  INFO 69476 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request)
+2016-05-11 15:52:49.169  INFO 69476 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 15:52:49.169  INFO 69476 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 15:52:49.239  INFO 69476 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:52:49.239  INFO 69476 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:52:49.348  INFO 69476 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:52:49.601  INFO 69476 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 15:52:49.705  INFO 69476 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2016-05-11 15:52:49.712  INFO 69476 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.521 seconds (JVM running for 6.06)
+2016-05-11 15:52:59.580  INFO 69476 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 15:52:59.580  INFO 69476 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 15:52:59.603  INFO 69476 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2016-05-11 15:55:28.413  INFO 68620 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 68620 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 15:55:28.420  INFO 68620 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 15:55:28.503  INFO 68620 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@433e7d19: startup date [Wed May 11 15:55:28 CST 2016]; root of context hierarchy
+2016-05-11 15:55:31.580  INFO 68620 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2016-05-11 15:55:31.607  INFO 68620 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 15:55:31.609  INFO 68620 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 15:55:31.809  INFO 68620 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 15:55:31.810  INFO 68620 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3312 ms
+2016-05-11 15:55:32.358  INFO 68620 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 15:55:32.370  INFO 68620 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 15:55:32.370  INFO 68620 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 15:55:32.370  INFO 68620 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 15:55:32.371  INFO 68620 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 15:55:32.704  INFO 68620 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@433e7d19: startup date [Wed May 11 15:55:28 CST 2016]; root of context hierarchy
+2016-05-11 15:55:32.826  INFO 68620 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request)
+2016-05-11 15:55:32.838  INFO 68620 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 15:55:32.839  INFO 68620 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 15:55:32.908  INFO 68620 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:55:32.908  INFO 68620 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:55:33.019  INFO 68620 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:55:33.258  INFO 68620 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 15:55:33.364  INFO 68620 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2016-05-11 15:55:33.370  INFO 68620 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.49 seconds (JVM running for 6.032)
+2016-05-11 15:55:40.433  INFO 68620 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 15:55:40.434  INFO 68620 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 15:55:40.457  INFO 68620 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2016-05-11 15:57:30.636  INFO 68052 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 68052 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 15:57:30.642  INFO 68052 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 15:57:30.744  INFO 68052 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@36c8c63e: startup date [Wed May 11 15:57:30 CST 2016]; root of context hierarchy
+2016-05-11 15:57:33.633  INFO 68052 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 15:57:33.656  INFO 68052 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 15:57:33.657  INFO 68052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 15:57:33.873  INFO 68052 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 15:57:33.874  INFO 68052 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3136 ms
+2016-05-11 15:57:34.614  INFO 68052 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 15:57:34.622  INFO 68052 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 15:57:34.623  INFO 68052 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 15:57:34.624  INFO 68052 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 15:57:34.625  INFO 68052 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 15:57:34.941  INFO 68052 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@36c8c63e: startup date [Wed May 11 15:57:30 CST 2016]; root of context hierarchy
+2016-05-11 15:57:35.047  INFO 68052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request)
+2016-05-11 15:57:35.061  INFO 68052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 15:57:35.062  INFO 68052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 15:57:35.130  INFO 68052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:57:35.130  INFO 68052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:57:35.235  INFO 68052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 15:57:35.547  INFO 68052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 15:57:35.661  INFO 68052 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 15:57:35.668  INFO 68052 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.602 seconds (JVM running for 6.121)
+2016-05-11 15:59:17.530  INFO 68052 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 15:59:17.531  INFO 68052 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 15:59:17.558  INFO 68052 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2016-05-11 16:02:41.093  INFO 67652 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 67652 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 16:02:41.100  INFO 67652 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 16:02:41.199  INFO 67652 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79a0ce4c: startup date [Wed May 11 16:02:41 CST 2016]; root of context hierarchy
+2016-05-11 16:02:43.994  INFO 67652 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 16:02:44.015  INFO 67652 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 16:02:44.017  INFO 67652 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 16:02:44.213  INFO 67652 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 16:02:44.213  INFO 67652 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3021 ms
+2016-05-11 16:02:44.869  INFO 67652 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 16:02:44.879  INFO 67652 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 16:02:44.880  INFO 67652 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 16:02:44.881  INFO 67652 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 16:02:44.881  INFO 67652 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 16:02:45.219  INFO 67652 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79a0ce4c: startup date [Wed May 11 16:02:41 CST 2016]; root of context hierarchy
+2016-05-11 16:02:45.354  INFO 67652 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request)
+2016-05-11 16:02:45.365  INFO 67652 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 16:02:45.365  INFO 67652 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:02:45.434  INFO 67652 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:02:45.435  INFO 67652 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:02:45.538  INFO 67652 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:02:45.839  INFO 67652 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 16:02:45.961  INFO 67652 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 16:02:45.971  INFO 67652 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.437 seconds (JVM running for 6.049)
+2016-05-11 16:03:08.888  INFO 67652 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 16:03:08.888  INFO 67652 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 16:03:08.921  INFO 67652 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2016-05-11 16:03:36.287  INFO 68512 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 68512 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 16:03:36.295  INFO 68512 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 16:03:36.380  INFO 68512 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47f0e973: startup date [Wed May 11 16:03:36 CST 2016]; root of context hierarchy
+2016-05-11 16:03:39.785  INFO 68512 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 16:03:39.808  INFO 68512 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 16:03:39.810  INFO 68512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 16:03:40.031  INFO 68512 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 16:03:40.031  INFO 68512 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3656 ms
+2016-05-11 16:03:40.707  INFO 68512 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 16:03:40.719  INFO 68512 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 16:03:40.719  INFO 68512 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 16:03:40.720  INFO 68512 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 16:03:40.720  INFO 68512 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 16:03:41.138  INFO 68512 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47f0e973: startup date [Wed May 11 16:03:36 CST 2016]; root of context hierarchy
+2016-05-11 16:03:41.257  INFO 68512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request)
+2016-05-11 16:03:41.271  INFO 68512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 16:03:41.272  INFO 68512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:03:41.356  INFO 68512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:03:41.357  INFO 68512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:03:41.465  INFO 68512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:03:41.819  INFO 68512 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 16:03:41.959  INFO 68512 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 16:03:41.966  INFO 68512 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 6.253 seconds (JVM running for 7.792)
+2016-05-11 16:06:12.634  INFO 68496 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 68496 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 16:06:12.642  INFO 68496 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 16:06:12.740  INFO 68496 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a84ac2: startup date [Wed May 11 16:06:12 CST 2016]; root of context hierarchy
+2016-05-11 16:06:15.721  INFO 68496 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 16:06:15.747  INFO 68496 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 16:06:15.749  INFO 68496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 16:06:15.987  INFO 68496 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 16:06:15.987  INFO 68496 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3253 ms
+2016-05-11 16:06:16.533  INFO 68496 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 16:06:16.538  INFO 68496 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 16:06:16.538  INFO 68496 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 16:06:16.539  INFO 68496 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 16:06:16.539  INFO 68496 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 16:06:16.826  INFO 68496 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78a84ac2: startup date [Wed May 11 16:06:12 CST 2016]; root of context hierarchy
+2016-05-11 16:06:16.948  INFO 68496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request)
+2016-05-11 16:06:16.955  INFO 68496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 16:06:16.957  INFO 68496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:06:16.998  INFO 68496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:06:16.998  INFO 68496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:06:17.100  INFO 68496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:06:17.352  INFO 68496 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 16:06:17.450  INFO 68496 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 16:06:17.460  INFO 68496 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.388 seconds (JVM running for 5.905)
+2016-05-11 16:11:40.651  INFO 68496 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 16:11:40.652  INFO 68496 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 16:11:40.677  INFO 68496 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2016-05-11 16:13:39.923  INFO 68112 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 68112 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 16:13:39.929  INFO 68112 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 16:13:40.025  INFO 68112 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d13e8c7: startup date [Wed May 11 16:13:40 CST 2016]; root of context hierarchy
+2016-05-11 16:13:43.048  INFO 68112 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 16:13:43.069  INFO 68112 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 16:13:43.071  INFO 68112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 16:13:43.282  INFO 68112 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 16:13:43.283  INFO 68112 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3262 ms
+2016-05-11 16:13:43.794  INFO 68112 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 16:13:43.802  INFO 68112 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 16:13:43.803  INFO 68112 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 16:13:43.803  INFO 68112 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 16:13:43.803  INFO 68112 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 16:13:44.148  INFO 68112 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d13e8c7: startup date [Wed May 11 16:13:40 CST 2016]; root of context hierarchy
+2016-05-11 16:13:44.256  INFO 68112 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request)
+2016-05-11 16:13:44.267  INFO 68112 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 16:13:44.267  INFO 68112 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:13:44.341  INFO 68112 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:13:44.341  INFO 68112 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:13:44.447  INFO 68112 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:13:44.717  INFO 68112 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 16:13:44.844  INFO 68112 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 16:13:44.853  INFO 68112 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.49 seconds (JVM running for 6.1)
+2016-05-11 16:13:53.617  INFO 68112 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 16:13:53.617  INFO 68112 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 16:13:53.644  INFO 68112 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2016-05-11 16:16:17.257  INFO 27668 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 27668 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 16:16:17.264  INFO 27668 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 16:16:17.376  INFO 27668 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44e00985: startup date [Wed May 11 16:16:17 CST 2016]; root of context hierarchy
+2016-05-11 16:16:21.083  INFO 27668 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 16:16:21.105  INFO 27668 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 16:16:21.107  INFO 27668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 16:16:21.331  INFO 27668 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 16:16:21.332  INFO 27668 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3961 ms
+2016-05-11 16:16:21.890  INFO 27668 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 16:16:21.896  INFO 27668 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 16:16:21.896  INFO 27668 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 16:16:21.896  INFO 27668 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 16:16:21.897  INFO 27668 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 16:16:22.251  INFO 27668 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44e00985: startup date [Wed May 11 16:16:17 CST 2016]; root of context hierarchy
+2016-05-11 16:16:22.391  INFO 27668 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:16:22.405  INFO 27668 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 16:16:22.405  INFO 27668 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:16:22.464  INFO 27668 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:16:22.464  INFO 27668 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:16:22.601  INFO 27668 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:16:22.960  INFO 27668 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 16:16:23.187  INFO 27668 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 16:16:23.199  INFO 27668 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 6.601 seconds (JVM running for 7.163)
+2016-05-11 16:16:57.150  INFO 27668 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 16:16:57.150  INFO 27668 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 16:16:57.176  INFO 27668 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2016-05-11 16:18:27.174  INFO 27668 --- [http-nio-80-exec-5] c.k.search.controller.SearchController   : 收到请求
+2016-05-11 16:20:53.377  INFO 54648 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 54648 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 16:20:53.382  INFO 54648 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 16:20:53.482  INFO 54648 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22e08e84: startup date [Wed May 11 16:20:53 CST 2016]; root of context hierarchy
+2016-05-11 16:20:56.422  INFO 54648 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 16:20:56.449  INFO 54648 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 16:20:56.451  INFO 54648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 16:20:56.609  INFO 54648 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 16:20:56.609  INFO 54648 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3134 ms
+2016-05-11 16:20:57.263  INFO 54648 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 16:20:57.270  INFO 54648 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 16:20:57.270  INFO 54648 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 16:20:57.271  INFO 54648 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 16:20:57.271  INFO 54648 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 16:20:57.595  INFO 54648 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22e08e84: startup date [Wed May 11 16:20:53 CST 2016]; root of context hierarchy
+2016-05-11 16:20:57.710  INFO 54648 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:20:57.725  INFO 54648 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 16:20:57.726  INFO 54648 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:20:57.796  INFO 54648 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:20:57.797  INFO 54648 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:20:57.902  INFO 54648 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:20:58.167  INFO 54648 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 16:20:58.272  INFO 54648 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 16:20:58.280  INFO 54648 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.533 seconds (JVM running for 6.044)
+2016-05-11 16:21:10.081  INFO 54648 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 16:21:10.082  INFO 54648 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 16:21:10.104  INFO 54648 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2016-05-11 16:25:26.545  INFO 69780 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 69780 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 16:25:26.552  INFO 69780 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 16:25:26.660  INFO 69780 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a8d99be: startup date [Wed May 11 16:25:26 CST 2016]; root of context hierarchy
+2016-05-11 16:25:29.990  INFO 69780 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 16:25:30.018  INFO 69780 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 16:25:30.020  INFO 69780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 16:25:30.254  INFO 69780 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 16:25:30.255  INFO 69780 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3601 ms
+2016-05-11 16:25:30.934  INFO 69780 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 16:25:30.945  INFO 69780 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 16:25:30.945  INFO 69780 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 16:25:30.946  INFO 69780 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 16:25:30.946  INFO 69780 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 16:25:31.375  INFO 69780 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a8d99be: startup date [Wed May 11 16:25:26 CST 2016]; root of context hierarchy
+2016-05-11 16:25:31.512  INFO 69780 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:25:31.527  INFO 69780 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 16:25:31.527  INFO 69780 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:25:31.594  INFO 69780 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:25:31.594  INFO 69780 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:25:31.733  INFO 69780 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:25:32.090  INFO 69780 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 16:25:32.309  INFO 69780 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 16:25:32.320  INFO 69780 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 6.423 seconds (JVM running for 7.015)
+2016-05-11 16:25:39.867  INFO 69780 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 16:25:39.867  INFO 69780 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 16:25:39.897  INFO 69780 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2016-05-11 16:32:59.329  INFO 68968 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 68968 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 16:32:59.337  INFO 68968 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 16:32:59.431  INFO 68968 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@604a550e: startup date [Wed May 11 16:32:59 CST 2016]; root of context hierarchy
+2016-05-11 16:33:02.780  INFO 68968 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 16:33:02.805  INFO 68968 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 16:33:02.807  INFO 68968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 16:33:02.991  INFO 68968 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 16:33:02.991  INFO 68968 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3563 ms
+2016-05-11 16:33:03.541  INFO 68968 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 16:33:03.549  INFO 68968 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 16:33:03.550  INFO 68968 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 16:33:03.550  INFO 68968 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 16:33:03.550  INFO 68968 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 16:33:04.047  INFO 68968 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@604a550e: startup date [Wed May 11 16:32:59 CST 2016]; root of context hierarchy
+2016-05-11 16:33:04.200  INFO 68968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:33:04.210  INFO 68968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 16:33:04.211  INFO 68968 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:33:04.282  INFO 68968 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:33:04.283  INFO 68968 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:33:04.409  INFO 68968 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:33:04.807  INFO 68968 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 16:33:05.044  INFO 68968 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 16:33:05.053  INFO 68968 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 6.351 seconds (JVM running for 6.879)
+2016-05-11 16:33:16.641  INFO 68968 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 16:33:16.642  INFO 68968 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 16:33:16.672  INFO 68968 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2016-05-11 16:53:28.233  INFO 27340 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 27340 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 16:53:28.240  INFO 27340 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 16:53:28.335  INFO 27340 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1335f392: startup date [Wed May 11 16:53:28 CST 2016]; root of context hierarchy
+2016-05-11 16:53:31.475  INFO 27340 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 16:53:31.499  INFO 27340 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 16:53:31.501  INFO 27340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 16:53:31.684  INFO 27340 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 16:53:31.685  INFO 27340 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3356 ms
+2016-05-11 16:53:32.236  INFO 27340 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 16:53:32.242  INFO 27340 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 16:53:32.243  INFO 27340 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 16:53:32.243  INFO 27340 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 16:53:32.243  INFO 27340 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 16:53:32.540  INFO 27340 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1335f392: startup date [Wed May 11 16:53:28 CST 2016]; root of context hierarchy
+2016-05-11 16:53:32.634  INFO 27340 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:53:32.646  INFO 27340 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 16:53:32.647  INFO 27340 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:53:32.725  INFO 27340 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:53:32.725  INFO 27340 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:53:32.835  INFO 27340 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:53:33.093  INFO 27340 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 16:53:33.204  INFO 27340 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 16:53:33.212  INFO 27340 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.642 seconds (JVM running for 6.196)
+2016-05-11 16:54:15.599  INFO 27340 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 16:54:15.599  INFO 27340 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 16:54:15.624  INFO 27340 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2016-05-11 16:59:10.440  INFO 57124 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 57124 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 16:59:10.446  INFO 57124 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 16:59:10.543  INFO 57124 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1decca33: startup date [Wed May 11 16:59:10 CST 2016]; root of context hierarchy
+2016-05-11 16:59:13.985  INFO 57124 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 16:59:14.005  INFO 57124 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 16:59:14.006  INFO 57124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 16:59:14.160  INFO 57124 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 16:59:14.161  INFO 57124 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3621 ms
+2016-05-11 16:59:14.723  INFO 57124 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 16:59:14.734  INFO 57124 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 16:59:14.735  INFO 57124 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 16:59:14.736  INFO 57124 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 16:59:14.736  INFO 57124 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 16:59:15.072  INFO 57124 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1decca33: startup date [Wed May 11 16:59:10 CST 2016]; root of context hierarchy
+2016-05-11 16:59:15.193  INFO 57124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:59:15.207  INFO 57124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 16:59:15.208  INFO 57124 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 16:59:15.283  INFO 57124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:59:15.283  INFO 57124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:59:15.392  INFO 57124 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 16:59:15.704  INFO 57124 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 16:59:15.835  INFO 57124 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 16:59:15.842  INFO 57124 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.973 seconds (JVM running for 6.595)
+2016-05-11 17:00:45.825  INFO 57124 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 17:00:45.825  INFO 57124 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 17:00:45.848  INFO 57124 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2016-05-11 17:00:45.904  INFO 57124 --- [http-nio-80-exec-1] c.k.search.controller.SearchController   : 收到请求
+2016-05-11 17:04:14.510  INFO 31844 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 31844 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 17:04:14.520  INFO 31844 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 17:04:14.606  INFO 31844 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d8c45f0: startup date [Wed May 11 17:04:14 CST 2016]; root of context hierarchy
+2016-05-11 17:04:17.435  INFO 31844 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 17:04:17.455  INFO 31844 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 17:04:17.457  INFO 31844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 17:04:17.616  INFO 31844 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 17:04:17.616  INFO 31844 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3015 ms
+2016-05-11 17:04:18.141  INFO 31844 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 17:04:18.147  INFO 31844 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 17:04:18.148  INFO 31844 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 17:04:18.148  INFO 31844 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 17:04:18.148  INFO 31844 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 17:04:18.451  INFO 31844 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d8c45f0: startup date [Wed May 11 17:04:14 CST 2016]; root of context hierarchy
+2016-05-11 17:04:18.548  INFO 31844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request,javax.servlet.http.HttpServletResponse)
+2016-05-11 17:04:18.562  INFO 31844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 17:04:18.563  INFO 31844 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 17:04:18.632  INFO 31844 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 17:04:18.632  INFO 31844 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 17:04:18.741  INFO 31844 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 17:04:18.973  INFO 31844 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 17:04:19.087  INFO 31844 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 17:04:19.094  INFO 31844 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.102 seconds (JVM running for 5.687)
+2016-05-11 17:08:46.436  INFO 4452 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 4452 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 17:08:46.445  INFO 4452 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 17:08:46.544  INFO 4452 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46fb1ba7: startup date [Wed May 11 17:08:46 CST 2016]; root of context hierarchy
+2016-05-11 17:08:49.870  INFO 4452 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 17:08:49.915  INFO 4452 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 17:08:49.917  INFO 4452 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 17:08:50.111  INFO 4452 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 17:08:50.111  INFO 4452 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3571 ms
+2016-05-11 17:08:50.754  INFO 4452 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 17:08:50.760  INFO 4452 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 17:08:50.761  INFO 4452 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 17:08:50.762  INFO 4452 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 17:08:50.762  INFO 4452 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 17:08:50.763  INFO 4452 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'simpleCORSFilter' to: [/*]
+2016-05-11 17:08:51.059  INFO 4452 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46fb1ba7: startup date [Wed May 11 17:08:46 CST 2016]; root of context hierarchy
+2016-05-11 17:08:51.158  INFO 4452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request,javax.servlet.http.HttpServletResponse)
+2016-05-11 17:08:51.169  INFO 4452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 17:08:51.170  INFO 4452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 17:08:51.236  INFO 4452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 17:08:51.237  INFO 4452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 17:08:51.333  INFO 4452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 17:08:51.581  INFO 4452 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 17:08:51.690  INFO 4452 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 17:08:51.703  INFO 4452 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.796 seconds (JVM running for 6.377)
+2016-05-11 17:10:31.415  INFO 9556 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 9556 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 17:10:31.423  INFO 9556 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 17:10:31.517  INFO 9556 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29b43ff9: startup date [Wed May 11 17:10:31 CST 2016]; root of context hierarchy
+2016-05-11 17:10:34.559  INFO 9556 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 17:10:34.577  INFO 9556 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 17:10:34.579  INFO 9556 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 17:10:34.752  INFO 9556 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 17:10:34.752  INFO 9556 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3240 ms
+2016-05-11 17:10:35.385  INFO 9556 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 17:10:35.392  INFO 9556 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 17:10:35.393  INFO 9556 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 17:10:35.393  INFO 9556 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 17:10:35.394  INFO 9556 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 17:10:35.394  INFO 9556 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'simpleCORSFilter' to: [/*]
+2016-05-11 17:10:35.774  INFO 9556 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@29b43ff9: startup date [Wed May 11 17:10:31 CST 2016]; root of context hierarchy
+2016-05-11 17:10:35.917  INFO 9556 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request,javax.servlet.http.HttpServletResponse)
+2016-05-11 17:10:35.926  INFO 9556 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 17:10:35.927  INFO 9556 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 17:10:36.010  INFO 9556 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 17:10:36.011  INFO 9556 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 17:10:36.120  INFO 9556 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 17:10:36.521  INFO 9556 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 17:10:36.736  INFO 9556 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 17:10:36.748  INFO 9556 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 5.894 seconds (JVM running for 6.604)
+2016-05-11 17:12:01.617  INFO 9556 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 17:12:01.617  INFO 9556 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 17:12:01.640  INFO 9556 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2016-05-11 17:12:26.353  INFO 9556 --- [http-nio-80-exec-1] c.k.search.controller.SearchController   : 收到请求
+2016-05-11 17:12:26.366  INFO 9556 --- [http-nio-80-exec-1] com.kite.search.SimpleSearch             : call getUrlForString, url:http://cn.bing.com/search?q=site:pan.baidu.com+java&first=1, encoding:UTF-8
+2016-05-11 17:12:53.479  INFO 9556 --- [http-nio-80-exec-4] c.k.search.controller.SearchController   : 收到请求
+2016-05-11 17:12:53.480  INFO 9556 --- [http-nio-80-exec-4] com.kite.search.SimpleSearch             : call getUrlForString, url:http://cn.bing.com/search?q=site:pan.baidu.com+java&first=1, encoding:UTF-8
+2016-05-11 17:13:44.880  INFO 9556 --- [http-nio-80-exec-5] c.k.search.controller.SearchController   : 收到请求
+2016-05-11 17:13:44.881  INFO 9556 --- [http-nio-80-exec-5] com.kite.search.SimpleSearch             : call getUrlForString, url:http://cn.bing.com/search?q=site:pan.baidu.com+java&first=1, encoding:UTF-8
+2016-05-11 17:14:10.857  INFO 9556 --- [http-nio-80-exec-6] c.k.search.controller.SearchController   : 收到请求
+2016-05-11 17:14:10.857  INFO 9556 --- [http-nio-80-exec-6] com.kite.search.SimpleSearch             : call getUrlForString, url:http://cn.bing.com/search?q=site:pan.baidu.com+aaaa&first=1, encoding:UTF-8
+2016-05-11 17:14:44.905  INFO 40348 --- [main] com.kite.search.bootstrap.Bootstrap      : Starting Bootstrap on kite-PC with PID 40348 (D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot\target\classes started by kite in D:\eclipseworkSpace\openSource\mybatis\pan-search-springboot)
+2016-05-11 17:14:44.911  INFO 40348 --- [main] com.kite.search.bootstrap.Bootstrap      : No active profile set, falling back to default profiles: default
+2016-05-11 17:14:45.009  INFO 40348 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77a9125: startup date [Wed May 11 17:14:45 CST 2016]; root of context hierarchy
+2016-05-11 17:14:48.570  INFO 40348 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2016-05-11 17:14:48.600  INFO 40348 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-05-11 17:14:48.603  INFO 40348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-05-11 17:14:48.825  INFO 40348 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-05-11 17:14:48.826  INFO 40348 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3823 ms
+2016-05-11 17:14:49.461  INFO 40348 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-11 17:14:49.469  INFO 40348 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-11 17:14:49.470  INFO 40348 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-11 17:14:49.470  INFO 40348 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-11 17:14:49.470  INFO 40348 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-11 17:14:49.470  INFO 40348 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'simpleCORSFilter' to: [/*]
+2016-05-11 17:14:49.888  INFO 40348 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@77a9125: startup date [Wed May 11 17:14:45 CST 2016]; root of context hierarchy
+2016-05-11 17:14:50.042  INFO 40348 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search]}" onto public com.kite.search.model.Response com.kite.search.controller.SearchController.search(com.kite.search.model.Request,javax.servlet.http.HttpServletResponse)
+2016-05-11 17:14:50.054  INFO 40348 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-11 17:14:50.055  INFO 40348 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-11 17:14:50.118  INFO 40348 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 17:14:50.119  INFO 40348 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 17:14:50.216  INFO 40348 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-11 17:14:50.493  INFO 40348 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-05-11 17:14:50.636  INFO 40348 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2016-05-11 17:14:50.642  INFO 40348 --- [main] com.kite.search.bootstrap.Bootstrap      : Started Bootstrap in 6.281 seconds (JVM running for 6.845)
+2016-05-11 17:15:20.785  INFO 40348 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-11 17:15:20.785  INFO 40348 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-11 17:15:20.824  INFO 40348 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2016-05-11 17:15:20.886  INFO 40348 --- [http-nio-80-exec-1] c.k.search.controller.SearchController   : 收到请求
+2016-05-11 17:15:20.906  INFO 40348 --- [http-nio-80-exec-1] com.kite.search.SimpleSearch             : call getUrlForString, url:http://cn.bing.com/search?q=site:pan.baidu.com+aaaa&first=1, encoding:UTF-8
