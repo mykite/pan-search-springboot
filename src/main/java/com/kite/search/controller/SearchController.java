@@ -18,7 +18,7 @@ import com.kite.search.model.Response;
 @Slf4j
 public class SearchController {
 
-	@CrossOrigin(origins = "http://www.test.com", maxAge = 3600)
+	@CrossOrigin
 	@RequestMapping("/search")
 	public Response search(Request request,HttpServletResponse servletResponse) {
 		Response response = new Response();
@@ -29,9 +29,8 @@ public class SearchController {
 		}
 		if(!SearchTypeEnum.hasType(request.getSearchType())) {
 			response.setMessage("搜索类型不存在");
-			return response;
+			request.setSearchType(SearchTypeEnum.BING.getType());
 		}
-		
 		return SearchFactory.getSearch(request.getSearchType()).searchByKeyword(request);
 	}
 }

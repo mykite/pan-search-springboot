@@ -8,6 +8,6 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages="com.kite.search.controller")
 public class Bootstrap {
 	public static void main(String[] args) {
-		 SpringApplication.run(Bootstrap.class, args);
+		 SpringApplication.run(Bootstrap.class, args);	
 	}
 }
