@@ -1,0 +1,80 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>百度网盘搜索</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="百度网盘搜索|网盘搜索|百度云搜索" />
+<meta name="description" content="百度网盘搜索，搜索百度网盘资源" />
+<link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+<script type="text/javascript" src="static/jquery/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/vue/latest/vue.js"></script>
+<script type="text/javascript" src="static/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="span7 text-center" style="margin-top: 20px" id="data">
+		<form id="searchPan" action="#" method="post">
+			<input type="text" name="keyword" v-model="keyword"/> <span
+				class="glyphicon glyphicon-search" aria-hidden="true"></span> 
+				<input type="button" value="百度网盘搜索" @click="showPage()"/>
+		</form>
+		<hr />
+		<div >
+			<p v-for="item in result.results">
+				<span>
+					<a href="{{item.url}}" >{{item.title}}</a>
+				</span>
+				<span>
+					{{{item.desc}}}
+				</span>
+			</p>
+			<nav v-show="showPagination">
+				<ul class="pagination">
+
+					<li v-show="showPrePagination"><a href="javascript:void(0);" @click="showPage(result.currentPage - 1)" aria-label="Previous">上一页</a></li>
+					<!-- 
+						<li v-for="result.startPage in result.endPage" >
+						</li> 
+					-->
+					<li v-show="showNextPagination"><a href="javascript:void(0);" @click="showPage(result.currentPage + 1)" aria-label="Next">下一页</a></li>
+				</ul>
+
+			</nav>
+		</div>	
+	</div>
+	<script type="text/javascript">
+		var vue = new Vue({
+			el:'#data',
+			data:{
+				result:{currentPage:1,results:[]},
+				url:"http://www.test.com:8080/search",
+				showPagination:false,
+				showPrePagination:false,
+				showNextPagination:false,
+				keyword:''
+			},
+			methods:{
+				showPage: function(page) {
+					if(!page) page = this.result.currentPage;
+					var params = {keyword:this.keyword,currentPage:page};
+					$.post(this.url, params, function(data) {
+						if(data.success) {
+							vue.result = data;
+							vue.showPagination = true;
+							if(data.currentPage > 1) {
+								vue.showPrePagination = true;
+							} else {
+								vue.showPrePagination = false;
+							}
+							if(data.currentPage < data.totalPage) {
+								vue.showNextPagination = true;
+							} else {
+								vue.showNextPagination = false;
+							}
+						}
+					});
+				},
+			}
+		})
+	</script>
+</body>
+</html>
