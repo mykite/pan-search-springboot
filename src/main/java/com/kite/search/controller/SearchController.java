@@ -18,7 +18,7 @@ import com.kite.search.model.Response;
 @Slf4j
 public class SearchController {
 
-	@CrossOrigin
+	@CrossOrigin("*")
 	@RequestMapping("/search")
 	public Response search(Request request,HttpServletResponse servletResponse) {
 		Response response = new Response();
