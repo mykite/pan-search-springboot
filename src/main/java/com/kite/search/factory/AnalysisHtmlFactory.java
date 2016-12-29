@@ -24,5 +24,6 @@ public class AnalysisHtmlFactory {
 		} else {
 			throw new PanException(ErrorEnum.NOT_SUPPORT_SEARCH_TYPE.getCode(), ErrorEnum.NOT_SUPPORT_SEARCH_TYPE.getMsg());
 		}
+		
 	}
 }
