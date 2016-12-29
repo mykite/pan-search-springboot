@@ -5,15 +5,12 @@ import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.List;
 
-import lombok.extern.slf4j.Slf4j;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import com.kite.search.common.enums.ErrorEnum;
-import com.kite.search.common.exceptions.PanException;
 import com.kite.search.model.Resource;
 import com.kite.search.model.Response;
 
@@ -23,7 +20,6 @@ import com.kite.search.model.Response;
  * @author hasee
  *
  */
-@Slf4j
 public class AnalysisBingHtml extends AnalysisHtml {
 
 	@Override
