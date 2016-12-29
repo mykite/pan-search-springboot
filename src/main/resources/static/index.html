@@ -7,7 +7,7 @@
 <meta name="description" content="百度网盘搜索，搜索百度网盘资源" />
 <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
 <script type="text/javascript" src="static/jquery/jquery-1.12.3.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/vue/latest/vue.js"></script>
+<script type="text/javascript" src="static/vue.js"></script>
 <script type="text/javascript" src="static/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -46,7 +46,7 @@
 			el:'#data',
 			data:{
 				result:{currentPage:1,results:[]},
-				url:"http://www.test.com:8080/search",
+				url:"/search",
 				showPagination:false,
 				showPrePagination:false,
 				showNextPagination:false,

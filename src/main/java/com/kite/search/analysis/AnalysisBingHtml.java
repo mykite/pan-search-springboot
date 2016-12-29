@@ -28,6 +28,8 @@ public class AnalysisBingHtml extends AnalysisHtml {
 		List<Resource> resList = new ArrayList<>();
 		Document doc = Jsoup.parse(html);
 		Element contentEle = doc.getElementById("b_results");
+		// 获得查询结果总条数
+		Elements countEles = doc.getElementById("b_tween").select("span.sb_count");
 		// id:b_results-->>a[href] 结果数据
 		// <li class="b_pag"><span class="sb_count">22,200 条结果</span></li>
 		// <li class="b_pag"> <nav aria-label="navigation" role="navigation">
@@ -41,8 +43,7 @@ public class AnalysisBingHtml extends AnalysisHtml {
 		response.setCurrentPage((Integer.parseInt(currentPageEles.get(0).text()
 				.trim())));
 
-		// 获得查询结果总条数
-		Elements countEles = contentEle.select("span.sb_count");
+		
 		if (countEles == null || countEles.size() == 0) {
 			return response;
 		}
