@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="span7 text-center" style="margin-top: 20px" id="data">
-		<form id="searchPan" action="#" method="post">
+		<form id="searchPan" @submit.prevent>
 			<input type="text" name="keyword" v-model="keyword"/> <span
 				class="glyphicon glyphicon-search" aria-hidden="true"></span> 
 				<input type="button" value="百度网盘搜索" @click="showPage()"/>
